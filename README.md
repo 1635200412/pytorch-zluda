@@ -5,6 +5,7 @@
 zluda的bin目录应该有zluda和rocm5.7的dll文件和rocm5.7的库，但太大了请到releases下载完整的，你可自己手动更换里面的dll文件，这些都是来自rocm 和zluda 和amd驱动的
 
 解压到python.exe同一个目录下就行了
+
 -workenv
 
 --python.exe

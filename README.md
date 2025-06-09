@@ -6,11 +6,17 @@ zluda的bin目录应该有zluda和rocm5.7的dll文件和rocm5.7的库，但太�
 
 解压到python.exe同一个目录下就行了
 -workenv
+
 --python.exe
+
 --zluda
+
 ---__init__.py
+
 ---zluda.py
+
 ---zludadll.py
+
 目录结构大概就是这样
 
 之后在你的.py文件 直接 """import zluda """ 

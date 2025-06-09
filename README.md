@@ -2,9 +2,18 @@
 
 使用方法把pytorch-zluda解压到python.exe的目录命名为zluda。
 
-zluda的bin目录应该有zluda和rocm5.7的dll文件和rocm5.7的库，但太大了我打包成压缩包上传使用时解压出来，你可自己手动更换里面的dll文件，这些都是来自rocm 和zluda 和amd驱动的
+zluda的bin目录应该有zluda和rocm5.7的dll文件和rocm5.7的库，但太大了请到releases下载完整的，你可自己手动更换里面的dll文件，这些都是来自rocm 和zluda 和amd驱动的
 
-之后再你的.py文件 直接 """import zluda """ 
+解压到python.exe同一个目录下就行了
+-workenv
+--python.exe
+--zluda
+---__init__.py
+---zluda.py
+---zludadll.py
+目录结构大概就是这样
+
+之后在你的.py文件 直接 """import zluda """ 
 
 注意！！！ import zluda 必须在torch 之前应用不然dll 还是会使用torch 自己的。
 
